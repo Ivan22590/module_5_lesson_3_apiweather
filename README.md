@@ -102,3 +102,4 @@ python weather_app.py
 
 - Файл `.env` и `weather_cache.json` добавлены в `.gitignore` и не должны попадать в репозиторий.
 - Кэш содержит метаданные `city`, `lat`, `lon`, `fetched_at` и сам ответ API.
+- Значение `API_KEY` из файла `.env` имеет приоритет над системными переменными окружения (`load_dotenv(override=True)`).

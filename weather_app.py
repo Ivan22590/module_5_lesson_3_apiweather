@@ -21,7 +21,9 @@ from dotenv import load_dotenv
 
 # --- Конфигурация -----------------------------------------------------------
 
-load_dotenv()
+# override=True — значение API_KEY из .env имеет приоритет над системными
+# переменными окружения.
+load_dotenv(override=True)
 
 API_KEY: Optional[str] = os.getenv("API_KEY")
 
