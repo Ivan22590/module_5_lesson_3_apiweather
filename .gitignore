@@ -1,0 +1,27 @@
+# Секреты
+.env
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Кэш погоды
+weather_cache.json
+
+# Логи и прочее
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# ОС
+.DS_Store
+Thumbs.db
